@@ -1,0 +1,16 @@
+.filledbtn {
+  border-radius: 50px !important;
+  max-width: 7.5rem;
+  text-transform: capitalize !important;
+}
+
+.filledbtn:hover {
+  background-color: rgba(239, 44, 90, 1) !important;
+}
+
+.outlineBtn {
+  border-radius: 10px;
+  text-transform: capitalize !important;
+  color: rgba(10, 10, 10, 1) !important;
+  border: 1px solid rgba(10, 10, 10, 1) !important;
+}

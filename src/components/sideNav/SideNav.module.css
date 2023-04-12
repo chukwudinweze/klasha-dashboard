@@ -1,0 +1,12 @@
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 1.563rem;
+  position: relative;
+}
+
+.nav_section {
+  font-size: 1rem;
+  color: rgba(141, 141, 141, 1);
+  font-family: "general sans";
+}
