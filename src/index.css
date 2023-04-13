@@ -1,7 +1,7 @@
 /* set html root font size and set overflow-x */
 html {
   font-size: 16px;
-  overflow-x: auto;
+  overflow-x: hidden;
 }
 /* overide default styles */
 * {
@@ -11,8 +11,9 @@ html {
   padding: 0;
 }
 
+html,
 body {
-  /* overflow: auto; */
+  overflow-x: hidden;
 
   position: relative;
 }

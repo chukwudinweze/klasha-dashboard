@@ -1,0 +1,20 @@
+.chart_overview {
+  padding: 1rem;
+  flex: 2;
+}
+
+.area_chart {
+  border: 1px solid #0a0a0a;
+  border-radius: 5px;
+  margin-top: 0.2rem;
+  width: 100%;
+  overflow-x: auto;
+}
+@media only screen and (max-width: 768px) {
+  .chart_overview {
+    padding: 0;
+    flex: 12;
+    /* width: 100vw; */
+    scroll-snap-align: start;
+  }
+}

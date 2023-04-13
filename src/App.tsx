@@ -1,13 +1,8 @@
 import React from "react";
-import SideNav from "./components/sideNav/SideNav";
-import LogoNavLogout from "./components/sideNav/LogoNavLogout";
+import Allroutes from "./components/Allroutes";
 
 const App = () => {
-  return (
-    <div>
-      <LogoNavLogout />
-    </div>
-  );
+  return <Allroutes />;
 };
 
 export default App;

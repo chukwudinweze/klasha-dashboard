@@ -9,17 +9,16 @@ const SideNavItem: React.FC<{ icon: string; label: string; link: string }> = ({
   link,
 }) => {
   return (
-    // <NavLink to="#" className={({ isActive }) => (isActive ? "active" : "")}>
-    <div className={styles.navItem}>
-      <Avatar
-        //   className="icon"
-        src={icon && icon}
-        alt={label}
-        sx={{ width: "16px", height: "12.8px", color: "red" }}
-      />
-      <p>{label && label}</p>
-    </div>
-    // </NavLink>
+    <NavLink to={link} className={({ isActive }) => (isActive ? "active" : "")}>
+      <div className={styles.navItem}>
+        <Avatar
+          src={icon && icon}
+          alt={label}
+          sx={{ width: "16px", height: "12.8px", color: "red" }}
+        />
+        <p>{label && label}</p>
+      </div>
+    </NavLink>
   );
 };
 

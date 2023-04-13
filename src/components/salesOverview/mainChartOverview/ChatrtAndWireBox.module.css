@@ -1,0 +1,15 @@
+.chart_and_wirebox {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 1.875rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .chart_and_wirebox {
+    flex-direction: column;
+    /* width: 100vw; */
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+  }
+}

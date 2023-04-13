@@ -1,0 +1,50 @@
+.chart_header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.select_currency {
+  padding: 0.313rem;
+  border: 1px solid #000000;
+  border-radius: 0.313rem;
+}
+
+.select_email {
+  padding: 0.313rem;
+  border: 1px solid #e7e2e2;
+  border-radius: 0.313rem;
+  padding-right: 11.25rem;
+  color: #797878;
+}
+
+p {
+  font-size: 0.875rem;
+  font-weight: 600;
+  font-family: "inter sans-serif";
+  color: rgba(10, 10, 10, 1);
+  cursor: pointer;
+  transition: all 0.5s ease-in;
+}
+
+p:hover {
+  color: rgba(239, 44, 90, 1);
+}
+
+button {
+  background-color: #fff;
+  color: rgba(10, 10, 10, 1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgba(10, 10, 10, 1);
+  padding: 0.625rem;
+  gap: 1.25rem;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  .chart_header {
+    gap: 1rem;
+  }
+}

@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  min-height: 3rem;
+  padding-right: 1.875rem;
+  border-bottom: 1px solid rgba(237, 237, 237, 1);
+}
+
+.user,
+.chaneLang {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+  color: rgba(10, 10, 10, 1);
+  cursor: pointer;
+}
+
+.lang {
+  font-family: "inter, sans-serif";
+  font-size: 0.875rem;
+  font-weight: 500;
+}
